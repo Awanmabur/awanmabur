@@ -1,0 +1,330 @@
+
+/* website body */
+
+body{
+  text-align: center;
+  line-height: 4;
+  font-weight: bold;
+  font-size: 70px;
+  font-weight: 70px;
+}
+
+.cardbody{
+  text-align: center;
+
+}
+
+.ttt{
+  text-align: center;
+}
+/* animated images */
+
+div {
+  animation-name: Akoorsimon;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes Akoorsimon {
+  from {background-color: #DDA0DD;}
+  to {background-color: blue;}
+  to {background-color: #7FFFD4}
+  to {background-color: yellow;}
+  to {background-color: #7FFFD4}
+}
+
+/* education background image */
+
+.education{
+  font-size: 40px;
+  font-weight: 40px;
+}
+
+
+/* running image */
+
+.view_port {
+  overflow: hidden;
+  padding: 50px 0px;
+}
+
+.cylon_eye {
+  background-color: none;
+  background-image: linear-gradient(to right,
+      rgba(0, 0, 0, .9) 25%,
+      rgba(0, 0, 0, .1) 50%,
+      rgba(0, 0, 0, .9) 75%);
+  color: white;
+  height: 100%;
+  width: 2%;
+
+-webkit-animation: 14s linear 0s infinite alternate move_eye;
+          animation: 14s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+        @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+
+
+
+a{
+  margin: 20px 10px;
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+  font-family: cursive;
+  padding-right: 20px;
+}
+
+h2{
+  font-family: cursive;
+  padding: 20px;
+  word-spacing: 40px;
+}
+
+#adobe{
+  padding: 20px;
+
+
+}
+
+.nav-container{
+  position: fixed;
+}
+
+.card-body{
+  text-align: left;
+
+
+
+}
+ .Bio-card{
+   background-color: #DDA0DD;
+   text-align: left;
+   line-height: 2;
+ }
+
+.top-container{
+  background-color: #E6E6FA;
+  font-family: sans-serif;
+  text-align: center;
+  }
+
+ .card-container{
+   padding: 100px 0px;
+
+ }
+
+ .cart-body{
+   width: 400px;
+
+ }
+
+ .cart-budy{
+   width: 420px;
+   text-align: left;
+ }
+
+.container-courses{
+
+  border-color: blue;
+}
+ /* personal profile */
+
+.PERSONAL-PROFILE{
+  text-align: center;
+  font-family: serif;
+}
+
+.skills{
+  text-align: left;
+  margin-left: 55px;
+  width: 100%;
+
+}
+
+.rate{
+  font-size: 40;
+  font-weight: 40px;
+  margin-left: 60px;
+  padding-left: 40px;
+}
+
+.navbar-nav{
+  position: fixed-top;
+  margin-right: auto;
+}
+
+.education-background{
+  padding-left: 2px;
+  line-height: 2;
+  text-align: left;
+  padding: 80px 0px;
+  text-align: center;
+  }
+
+.contact{
+  text-align: center;
+  padding-top: 80px;
+  line-height: 2;
+  padding-top: 200px;
+}
+
+.tt{
+  font-family: cursive;
+  font-weight: bold;
+
+
+}
+.other-courses{
+  padding: 80px 0px;
+  line-height: 2;
+  text-align: left;
+}
+
+.big-card{
+  padding-right: 300px;
+  margin-right: 20px;
+
+}
+
+
+.work-experienced{
+  padding: 80px 0px;
+  line-height: 2;
+}
+
+ .hobbies{
+   background-color: #E6E6FA;
+
+ }
+
+ .Referee-section{
+   background-color: #E6E6FA;
+   padding-top: 80px;
+   padding-bottom: 80px;
+ }
+
+ .ref{
+   padding-top: 80px;
+   padding-bottom: 80px;
+ }
+
+ .decleration{
+   background-color: #98FB98;
+   padding-top: 80px;
+   padding-bottom: 80px;
+
+ }
+
+ #view-button{
+   width: 60px;
+   align: center;
+   font-size: 70px;
+   cursor: pointer;
+ }
+
+ #view-button:hover{
+   color: #green;
+   text-decoration: none;
+ }
+
+ .button{
+   height: 5px;
+   width: 30px;
+   align: center;
+   font-size: 25px;
+   cursor: pointer;
+   text-color: white;
+ }
+
+ .button:hover {
+   color: #000;
+   text-decoration: none;
+}
+
+
+.image2{
+ margin-left: 20px;
+ text-align: center;
+}
+
+.image1{
+  margin-left: 35px;
+  text-align: center;
+}
+
+
+
+#icon1{
+  margin-left: 20px;
+  width: 70%;
+  color: green;
+  float: left;
+}
+#icon2{
+  width: 135%;
+  color: white;
+  float: right;
+}
+
+
+.card-headert{
+  text-align: left;
+}
+
+.card-headertt{
+  text-align: left;
+  width: 80%
+
+}
+
+.footer{
+  background-color: green;
+  padding-top: 110px;
+
+
+}
+
+#phh{
+  color: blue;
+  text-decoration: none;
+}
+
+#phhh{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+#phh1{
+
+  color: #FF6347;
+
+}
+
+#phh2{
+ color: #FF0000;
+}
+
+#phh3{
+color: #191970;
+}
+
+.card{
+  text-align: left;
+}
+.card-bodyt{
+  text-align: left;
+}
+
+.card-bodys{
+  text-align: left;
+
+}
+
+.copyright{
+  text-align: left;
+}
